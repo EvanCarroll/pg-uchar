@@ -1,3 +1,4 @@
+DROP DOMAIN IF EXISTS uchar CASCADE;
 CREATE DOMAIN uchar AS "char";
 
 CREATE FUNCTION to_uchar( i int )
